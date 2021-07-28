@@ -18,6 +18,8 @@ For more details on Docker, see the following:
 * [Docker overview](https://docs.docker.com/engine/understanding-docker/)
 * [Install Docker](https://docs.docker.com/engine/install/)
 
+{{< alert title="Note" color="primary" >}}API Portal in docker containers has not been tested or validated in a HA scenario.{{< /alert >}}
+
 ## Interaction example
 
 The following diagram shows an example on how the different components interact in Docker containers:

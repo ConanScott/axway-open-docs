@@ -18,7 +18,7 @@ For more details on Docker, see the following:
 * [Docker overview](https://docs.docker.com/engine/understanding-docker/)
 * [Install Docker](https://docs.docker.com/engine/install/)
 
-{{< alert title="Note" color="primary" >}}API Portal in docker containers has not been tested or validated in a HA scenario.{{< /alert >}}
+{{< alert title="Note" color="primary" >}}API Portal running standalone (non docker) has been validated in a HA scenario however API Portal running in a docker container has not been fully tested or validated in a HA scenario yet.{{< /alert >}}
 
 ## Interaction example
 

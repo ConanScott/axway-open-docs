@@ -11,7 +11,7 @@ You can configure API Portal for high availability (HA) deployment to ensure th
 
 API Portal supports HA deployment in both a single datacenter or multiple datacenters. In either case the deployment is always done in active-active mode that ensures data is constantly backed up when it is replicated between API Portal instances and datacenters.
 
-{{< alert title="Note" color="primary" >}}API Portal in docker containers has not been tested or validated in a HA scenario.{{< /alert >}}
+{{< alert title="Note" color="primary" >}}API Portal running standalone (non docker) has been validated in a HA scenario however API Portal running in a docker container has not been fully tested or validated in a HA scenario yet.{{< /alert >}}
 
 ## API Portal HA in a single datacenter
 
